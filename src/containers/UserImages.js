@@ -47,7 +47,9 @@ class UserImages extends React.Component {
     if (!loading && !images.length) {
       return (
         <ImageContainer>
-          <p className="text-muted">Nothing to see here!</p>
+          <p className="text-muted">
+            This user is inactive!
+          </p>
         </ImageContainer>
       )
     }
