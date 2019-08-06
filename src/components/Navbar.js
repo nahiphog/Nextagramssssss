@@ -41,7 +41,7 @@ class MyNavbar extends React.Component {
           <NavbarBrand onClick={this.goToHome} href="/">
             <img
               className="mr-2"
-              src="https://image.flaticon.com/icons/png/512/87/87390.png"
+              src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Cataratas.jpg"
               alt="logo"
               height="30"
             />

@@ -10,7 +10,7 @@ class SignUpForm extends Component {
       username: '',
       email: '',
       password: '',
-      isValid: true
+      isValid: false
     }
     this.timer = null
   }
