@@ -41,7 +41,7 @@ const UserCardHeader = styled(CardHeader)`
 class HomePage extends React.Component {
   state = {
     users: [],
-    loading: true
+    loading: false
   }
 
   componentDidMount() {

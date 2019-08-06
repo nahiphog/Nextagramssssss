@@ -38,7 +38,7 @@ class UserImages extends React.Component {
       return (
         <ImageContainer>
           {images.map((url, idx) => (
-            <Image key={idx} className="m-1" src={url} width="100" height="100" alt="User Images" />
+            <Image key={idx} className="m-1" src={url} width="300" height="150" alt="User Images" />
           ))}
         </ImageContainer>
       )
