@@ -11,10 +11,12 @@ class App extends React.Component {
   render() {
     return (
       <div>
+
         <ToastContainer />
         <Navbar />
         <Switch>
           <Route exact path="/" component={HomePage} />
+          console.log("535345")
           <Route path="/users/:id" component={UserProfilePage} />
         </Switch>
       </div>
