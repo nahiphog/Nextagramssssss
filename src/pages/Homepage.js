@@ -14,7 +14,7 @@ const UsersContainer = styled.div`
 `
 
 const UserCard = styled(Card)`
-  width: 300px;
+  width: 900px;
   margin: 0.8em 0.6em;
 `
 

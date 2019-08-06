@@ -10,7 +10,7 @@ class SignUpForm extends Component {
       username: '',
       email: '',
       password: '',
-      isValid: false
+      isValid: true
     }
     this.timer = null
   }
@@ -100,7 +100,7 @@ class SignUpForm extends Component {
             onChange={this.handleUsernameInput}
             type="text"
             name="username"
-            placeholder="At least 5 characters"
+            placeholder="At least FIVE characters"
           />
           <FormFeedback>Oh noes! that username is already taken</FormFeedback>
         </FormGroup>
