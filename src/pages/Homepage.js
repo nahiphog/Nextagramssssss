@@ -23,9 +23,9 @@ const UserCardHeader = styled(CardHeader)`
   align-items: center;
 
   img {
-    height: 60px;
-    width: 60px;
-    border-radius: 50%;
+    height: 50px;
+    width: 70px;
+    
   }
 
   .title {

@@ -5,7 +5,7 @@ function MyButton(props) {
     <button
       style={{
         background: 'red',
-        color: 'white'
+        color: 'brown'
       }}
     >
       { props.children }

@@ -10,7 +10,7 @@ const Background = styled.div`
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.7);
+  background: pink;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,7 +20,7 @@ const Background = styled.div`
 const Container = styled.div`
   background: green;
   border-radius: 8px;
-  padding: 1em;
+  padding: 5em;
   width: 95%;
   max-width: 450px;
 

@@ -14,7 +14,7 @@ import AuthModal from './AuthModal'
 class MyNavbar extends React.Component {
   state = {
     navbarExpanded: false,
-    showModal: true
+    showModal: false
   }
 
   toggleNavExpand = () => {
@@ -43,7 +43,7 @@ class MyNavbar extends React.Component {
               className="mr-2"
               src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Cataratas.jpg"
               alt="logo"
-              height="50"
+              height="25"
             />
             NEXT STAR GIRL RAM
           </NavbarBrand>
