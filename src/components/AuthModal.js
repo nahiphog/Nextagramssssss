@@ -18,7 +18,7 @@ const Background = styled.div`
 `
 
 const Container = styled.div`
-  background: white;
+  background: green;
   border-radius: 8px;
   padding: 1em;
   width: 95%;

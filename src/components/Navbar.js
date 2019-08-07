@@ -45,7 +45,7 @@ class MyNavbar extends React.Component {
               alt="logo"
               height="50"
             />
-            NEXT TA GIRL RAM
+            NEXT STAR GIRL RAM
           </NavbarBrand>
           <NavbarToggler onClick={this.toggleNavExpand} />
           <Collapse isOpen={this.state.navbarExpanded} navbar>
